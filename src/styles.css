@@ -1,0 +1,183 @@
+:root {
+  --body-font: "Roboto Mono", monospace;
+  --main-font: "Caveat", cursive;
+  --secondary-font: "Dosis", sans-serif;
+  --primary-color: salmon;
+  --secondary-color: rgb(71, 66, 65);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  font-family: var(--main-font);
+  font-size: 22px !important;
+}
+
+h3 {
+  font-family: var(--secondary-font);
+  font-weight: lighter;
+  color: var(--secondary-color);
+}
+
+h3,
+#contact {
+  font-size: 40px;
+  margin: 0;
+}
+
+.sentence {
+  font-size: 44px;
+  font-family: var(--body-font);
+  font-weight: bolder;
+  color: var(--secondary-color);
+}
+
+#cat-icon {
+  width: 80px;
+}
+
+.display {
+  font-size: 90px;
+  font-family: var(--main-font);
+  color: var(--primary-color);
+}
+
+#coder-info {
+  font-size: 30px;
+  font-family: var(--body-font);
+  font-weight: bolder;
+  color: var(--secondary-color);
+}
+
+#navigation-links {
+  font-size: 18px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--secondary-font);
+}
+
+#box-1,
+#box-2 {
+  border: 1px solid;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 1px;
+  width: 150px;
+
+  text-decoration: unset;
+  box-shadow: var(--box-shadow);
+}
+
+#box-3,
+#box-4,
+#box-5 {
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 20px 1px;
+  padding: 16px 10px;
+  text-decoration: unset;
+  box-shadow: var(--box-shadow);
+}
+
+#box-1,
+#box-3,
+#box-4,
+#box-5 {
+  background: var(--primary-color);
+  color: whitesmoke;
+  border-color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: 18px;
+}
+
+#box-2 {
+  color: var(--primary-color);
+}
+
+#box-1:hover,
+#box-2:hover,
+#box-3:hover,
+#box-4:hover,
+#box-5:hover,
+#homepage {
+  cursor: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/829/original/icons8-cat-footprint-42.png?1645542104"),
+    auto;
+}
+
+.mb-3 {
+  font-family: var(--main-font);
+  font-size: 60px;
+  color: var(--secondary-color);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+
+#contact {
+  font-family: var(--body-font);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#email {
+  font-size: 30px;
+  text-decoration: unset;
+  font-family: var(--secondary-font);
+  font-weight: lighter;
+}
+
+#link-1,
+#link-2 {
+  text-decoration: unset;
+}
+
+#link-1:visited {
+  color: blue;
+}
+
+#link-2:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  #cat-icon {
+    width: 65px;
+  }
+
+  .sentence {
+    font-size: 32px;
+  }
+
+  .display {
+    font-size: 65px;
+  }
+
+  #coder-info {
+    font-size: 20px;
+  }
+
+  #box-3,
+  #box-4,
+  #box-5 {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+  .mb-3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1400px) {
+  .content {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

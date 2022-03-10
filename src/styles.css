@@ -84,7 +84,6 @@ h3,
   box-shadow: var(--box-shadow);
 }
 
-#box-1,
 #box-3,
 #box-4,
 #box-5 {
@@ -94,11 +93,6 @@ h3,
   font-family: var(--secondary-font);
   font-size: 18px;
 }
-
-#box-2 {
-  color: var(--primary-color);
-}
-
 
 .mb-3 {
   font-family: var(--main-font);

@@ -165,9 +165,4 @@ p {
   }
 }
 
-@media (max-width: 1400px) {
-  .content {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
+

@@ -3,13 +3,18 @@
   --main-font: "Caveat", cursive;
   --secondary-font: "Dosis", sans-serif;
   --primary-color: salmon;
-  --secondary-color: rgb(71, 66, 65);
+  --secondary-color: rgb(71, 66, 65)
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand {
   font-family: var(--main-font);
   font-size: 22px !important;
+}
+
+.text-secondary{
+  color: rgb(94, 94, 94);
+
 }
 
 h3 {
@@ -94,15 +99,6 @@ h3,
   color: var(--primary-color);
 }
 
-#box-1:hover,
-#box-2:hover,
-#box-3:hover,
-#box-4:hover,
-#box-5:hover,
-#homepage {
-  cursor: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/027/829/original/icons8-cat-footprint-42.png?1645542104"),
-    auto;
-}
 
 .mb-3 {
   font-family: var(--main-font);

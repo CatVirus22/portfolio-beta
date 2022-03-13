@@ -14,19 +14,22 @@
 
 .text-secondary{
   color: rgb(94, 94, 94);
+}
 
+#greeting, .homepage {
+  margin-top: 100px;
 }
 
 h3 {
   font-family: var(--secondary-font);
   font-weight: lighter;
   color: var(--secondary-color);
+    font-size: 40px;
+  margin: 0;
 }
 
-h3,
-#contact {
-  font-size: 40px;
-  margin: 0;
+#projects {
+  text-align: left;
 }
 
 .sentence {
@@ -68,7 +71,6 @@ h3,
   border-radius: 4px;
   padding: 20px 1px;
   width: 150px;
-
   text-decoration: unset;
   box-shadow: var(--box-shadow);
 }
@@ -111,30 +113,53 @@ p {
 
 #contact {
   font-family: var(--body-font);
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 14px;
+  text-align: right;
 }
 
 #email {
-  font-size: 30px;
   text-decoration: unset;
   font-family: var(--secondary-font);
   font-weight: lighter;
+  font-size: 17px;
+  text-align: right;
 }
 
-#link-1,
+#navbarNav {
+  text-align: right;
+}
+
 #link-2 {
   text-decoration: unset;
+  color: whitesmoke;
 }
 
-#link-1:visited {
-  color: blue;
-}
-
-#link-2:hover {
-  text-decoration: underline;
+#link-2:hover,
+#media:hover {
   color: var(--primary-color);
 }
+
+#media, .copyright,
+.footer-icon {
+  color: antiquewhite;
+  font-family: var(--body-font);
+  font-size: 14px;
+  padding-left: 10px;
+  text-align: left;
+  text-decoration: none;
+}
+
+
+ #symbol {
+font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ #name {
+   font-size: 20px;
+   font-family: var(--main-font);
+ }
+
+
 
 @media (max-width: 600px) {
   #cat-icon {
@@ -163,6 +188,8 @@ p {
   .mb-3 {
     text-align: center;
   }
+
+
 }
 
 

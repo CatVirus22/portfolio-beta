@@ -4,17 +4,24 @@
   --secondary-font: "Dosis", sans-serif;
   --primary-color: salmon;
   --secondary-color: rgb(71, 66, 65)
+  --tertiary-color: antiquewhite;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navBar {
+  background-color: white !important;
 }
 
 .navbar-brand {
   font-family: var(--main-font);
-  font-size: 22px !important;
+  font-size: 24px !important;
 }
 
 .text-secondary{
   color: rgb(94, 94, 94);
+  font-size: 17px;
 }
+
 
 #greeting, .homepage {
   margin-top: 100px;
@@ -90,7 +97,7 @@ h3 {
 #box-4,
 #box-5 {
   background: var(--primary-color);
-  color: whitesmoke;
+  color: var(--tertiary-color);
   border-color: var(--primary-color);
   font-family: var(--secondary-font);
   font-size: 18px;
@@ -131,7 +138,7 @@ p {
 
 #link-2 {
   text-decoration: unset;
-  color: whitesmoke;
+  color: var(--tertiary-color);
 }
 
 #link-2:hover,
@@ -141,14 +148,13 @@ p {
 
 #media, .copyright,
 .footer-icon {
-  color: antiquewhite;
+  color: var(--tertiary-color);
   font-family: var(--body-font);
   font-size: 14px;
   padding-left: 10px;
   text-align: left;
   text-decoration: none;
 }
-
 
  #symbol {
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -158,8 +164,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    font-size: 20px;
    font-family: var(--main-font);
  }
-
-
 
 @media (max-width: 600px) {
   #cat-icon {
@@ -188,8 +192,6 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   .mb-3 {
     text-align: center;
   }
-
-
 }
 
 

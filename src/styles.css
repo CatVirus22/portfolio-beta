@@ -101,10 +101,13 @@ h3 {
 #box-4,
 #box-5 {
   background: var(--primary-color);
-  color: var(--tertiary-color);
   border-color: var(--primary-color);
   font-family: var(--secondary-font);
   font-size: 18px;
+}
+
+.primary-link {
+  color: antiquewhite!important;
 }
 
 .mb-3 {

@@ -132,6 +132,9 @@ p {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.about-content {
+  margin-bottom: 150px;
+}
 .content {
   font-family: "Roboto Mono", monospace;
   font-weight: bold;

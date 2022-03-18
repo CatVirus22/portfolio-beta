@@ -1,6 +1,9 @@
+/*
 const fade = document.querySelectorAll(".fade-in");
 
-const appearOption = { threshold: 1 };
+const appearOption = {
+  threshold: 1,
+};
 
 const appearOnScroll = new IntersectionObserver(function (
   entries,
@@ -20,3 +23,4 @@ appearOption);
 fade.forEach((fade) => {
   appearOnScroll.observe(fade);
 });
+*/

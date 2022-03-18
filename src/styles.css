@@ -40,19 +40,7 @@ text-decoration: underline;
 .fade-in.appear {
   opacity: 1;
 }
-*/ 
-
-h3 {
-  font-family: var(--secondary-font);
-  font-weight: lighter;
-  color: var(--secondary-color);
-  font-size: 40px;
-  margin: 0;
-}
-
-#projects {
-  text-align: left;
-}
+*/
 
 .sentence {
   font-size: 44px;
@@ -69,6 +57,19 @@ h3 {
   font-size: 90px;
   font-family: var(--main-font);
   color: var(--primary-color);
+  padding-top: none;
+}
+
+h3 {
+  font-family: var(--secondary-font);
+  font-weight: lighter;
+  color: var(--secondary-color);
+  font-size: 40px;
+  margin: 0;
+}
+
+#projects {
+  text-align: left;
 }
 
 #coder-info {
@@ -144,6 +145,7 @@ p {
 
 #contact-heading {
 margin-top: 100px;
+text-align: left;
 }
 
 #email {

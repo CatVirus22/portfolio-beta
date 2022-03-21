@@ -5,8 +5,11 @@
   --primary-color: salmon;
   --secondary-color: rgb(71, 66, 65)
   --tertiary-color: antiquewhite;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
+
+ .p-body  {
+   margin-bottom: 332px;
+ }
 
 .navBar {
   background-color: white !important;
@@ -27,7 +30,20 @@
 text-decoration: underline;
 }
 
-#greeting {
+.intro-statement {
+ font-size: 46px !important;
+font-family: var(--secondary-font);
+color: var(--secondary-color);
+}
+
+.intro {
+font-size: 155px;
+font-family: var(--secondary-font);
+color: var(--secondary-color);
+}
+
+.index {
+  font-size: 26px;
   margin-top: 50px;
 }
 
@@ -43,18 +59,18 @@ text-decoration: underline;
 */
 
 .sentence {
-  font-size: 44px;
+  font-size: 65px;
   font-family: var(--body-font);
   font-weight: bolder;
   color: var(--secondary-color);
 }
 
 #cat-icon {
-  width: 80px;
+  width: 115px;
 }
 
 .display {
-  font-size: 90px;
+  font-size: 120px;
   font-family: var(--main-font);
   color: var(--primary-color);
   padding-top: none;

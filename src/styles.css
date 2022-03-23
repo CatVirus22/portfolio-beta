@@ -129,7 +129,7 @@ p {
 }
 
 .last {
-margin-bottom: 100px;
+margin-bottom: 130px;
 }
 
 #contact {
@@ -249,7 +249,7 @@ color: var(--secondary-color);
   }
 
   .display {
-    font-size: 65px;
+    font-size: 55px;
   }
 
   #coder-info {

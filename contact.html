@@ -36,6 +36,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <script src="src/index.js"></script>
+
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
     <script
@@ -81,11 +83,11 @@
       </div>
     </nav>
 
-    <div class="container">
+    <div class="container pb-5">
       <div class="row">
         <div id="contact-heading">
           <br />
-          <div class="sentence">Here's how you can</div>
+          <div class="contact-page">Here's how you can</div>
 
           <h1 class="display">Contact me:</h1>
           <span>
@@ -95,23 +97,51 @@
               src="https://img.icons8.com/external-tulpahn-flat-tulpahn/64/000000/external-cute-cat-emoji-tulpahn-flat-tulpahn.png"
           /></span>
         </div>
-        <div class="col-md-12 pt-5">
-          <input
-            type="text"
-            name="name"
-            id="input_comp-kdz7knmw"
-            class="_1SOvY has-custom-focus"
-            value=""
-            placeholder="Name"
-            maxlength="100"
-            aria-label="Name"
-          />
-        </div>
+
+        <form class="contact-form">
+          <div class="form-row pt-5 pb-5">
+            <div class="form-group col-md-12">
+              <input
+                type="name"
+                class="form-control"
+                id="inputName"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group col-md-12 pt-4">
+              <input
+                type="topic"
+                class="form-control"
+                id="inputTopic4"
+                placeholder="Topic"
+              />
+            </div>
+            <div class="form-group col-md-12 pt-4">
+              <input
+                type="email"
+                class="form-control"
+                id="inputAEmail"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group pt-4 pb-5">
+              <textarea
+                class="form-control"
+                id="inputMessage"
+                rows="5"
+                placeholder="Type your message here... "
+              ></textarea>
+            </div>
+            <button class="btn btn-primary form-button" type="submit">
+              Send message
+            </button>
+          </div>
+        </form>
       </div>
     </div>
 
-    <footer class="page-footer bg-dark fixed-bottom pt-2 pb-5">
-      <div class="container pt-4">
+    <footer class="page-footer bg-dark fixed-bottom pt-4 pb-5">
+      <div class="container">
         <div class="row">
           <div class="col-md-4 bg-dark text-light">
             <div class="copyright">
@@ -119,7 +149,7 @@
               <span id="name">Marizabelle Aldana</span>
             </div>
           </div>
-          <div class="col-md-4 bg-dark text-light">
+          <div class="col-md-4 pt-4 bg-dark text-light">
             <div class="row">
               <div
                 class="d-flex flex-row justify-content-center alig-items-center"

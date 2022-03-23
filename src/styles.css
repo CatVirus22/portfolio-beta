@@ -236,7 +236,7 @@ color: var(--secondary-color);
   margin-top: 20px;
 }
 
-.content, .mb-3 {
+.content {
   text-align: justify;
 }
 
